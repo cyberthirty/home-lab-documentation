@@ -1,63 +1,43 @@
-# Home Lab Documentation: Building a Cybersecurity Playground
 
-## Introduction
-Welcome to My github repository. This documentation outlines the setup and usage of a home lab environment for honing your cybersecurity skills. This lab includes platforms such as Hack The Box, TryHackMe, Metasploitable 2, Web for Pentester I-II, and Sumo Logic. Follow the steps below to create a dynamic and robust cybersecurity playground.
+<div align="center">
 
-**Table of Contents:**
-1. **Lab Infrastructure Setup:**
-   - Hardware Requirements
-   - Software Requirements
-   - Network Configuration
+<img src="images/cyberthirty.png" height=80px width=500px>
 
-2. **Platform-Specific Setup:**
+## DOCUMENTATION
 
-   a. **Hack The Box (HTB):**
-      - Account creation and subscription
-      - VPN connection setup
-      - Machine deployment and exploitation
+### Building a Cybersecurity Playground
 
-   b. **TryHackMe:**
-      - Account creation and subscription
-      - VPN connection setup
-      - Room deployment and walkthroughs
+>This is my documentation on how I learn and practise in my every daylife.I love Coding, Hacking, Learning and attending online courses to boot up my skills.
+I have a strong interest in ethical hacking, penetration testing, cyberspace, and coding. I am currently participating in TryHackMe, Pentesterlab, Youtube, Coursera, Portswi and Juniper to develop and learn new skills to stay updated on cyberspace.
 
-   c. **Metasploitable 2:**
-      - Download and installation
-      - Configuration and setup
-      - Vulnerability assessment and exploitation
+</div>
 
-   d. **Web for Pentester I-II:**
-      - Download and setup of the virtual machines
-      - Web application testing methodologies
-      - Exploitation techniques for various vulnerabilities
+>I also possess:
+>  - Experience in scripting languages including Python and Bash
+ > -  Excellent task management. Ability to handle multiple projects simultaneously
+  >- Experience with security toolkits such as Windows Server  Splunk, Kali Linux, Metasploit, Nmap, Nessus Essential, Wireshark, Github, Tor Browser, and Burp Suite Community.
 
-   e. **Sumo:**
-      - Download and installation
-      - Configuration and setup
-      - Vulnerability assessment and exploitation
-      
-3. **Integration and Cross-Platform Challenges:**
-   - Leveraging skills learned on one platform to solve challenges on another
-   - Collaborative exercises between HTB, TryHackMe, and Metasploitable
 
-4. **Best Practices for Learning:**
-   - Documentation and note-taking
-   - Research and exploration
-   - Engaging with the cybersecurity community
+<br>
 
-5. **Lab Maintenance and Security:**
-   - Regular backups and snapshots
-   - Periodic updates and patches
-   - Monitoring and analyzing network traffic
 
-6. **Conclusion:**
-   - Summary of the importance of continuous learning and hands-on practice in cybersecurity
-   - Encouragement to explore and contribute to the cybersecurity community
+<div align="center">
 
-**Additional Resources:**
-- Recommended reading materials
-- Online forums and communities
-- Cybersecurity certifications and training programs
+<a href="https://github.com/cyberthirty/Hello-World" target="_blank">
+      <img alt="LUCKY NGABUH RESUME" src="https://img.shields.io/badge/>>_DOWNLOAD_MY_RESUME_<<-00abbd?style=for-the-badge" height="48" />
 
-**Disclaimer:**
+
+### SKILLS
+ **[Python 89%]()** | **[Bash 90%]()** | **[Office 85%]()** | **[Visual Basics 60%]()** | **[Powershell 64%]()** | **[C++ & C 50%]()** | **[HTML & CSS 95%]()** | **[Ruby 50%]()** | **[Rust 50%]()** | **[Golan 72%]()** | **[Java 45%]()**
+
+### PROJECT
+
+**<a href="https://github.com/cyberthirty/Password-Stealer">Password Stealer</a> | <a href="https://github.com/cyberthirty/SSL-Certificate-Checker">SSL Certificate Checker</a> | <a href="https://cytherthirty.blogspot.com">Cyberthirty Blog</a> | <a href="http://github.com/cyberthirty/Hello-World">Hello World </a> | <a href="http://cyberthirty.github.io/">Portfolio</a>**
+
+### OVERVIEW
+
+This documentation have platforms such as Hack The Box, TryHackMe, and homelab such as Metasploitable 2, DamnVulnerable Linux, Badstore, Web for Pentester I-II, and Sumo.
+
+
+### Disclaimer
 This documentation is intended for educational purposes only. Ensure that you have legal authorization before attempting any penetration testing or vulnerability assessment activities.
