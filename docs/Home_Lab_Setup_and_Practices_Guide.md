@@ -56,7 +56,7 @@ To change file or directory permissions, you can use the `chmod` command. Here's
 
 ```bash
 chmod 755 filename
-
+```
 
 ### Additional Resources
 
