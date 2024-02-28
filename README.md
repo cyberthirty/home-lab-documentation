@@ -1,6 +1,10 @@
-![Security Home Labs](images/cyberthirty.png)
+<!--![Security Home Labs](images/cyberthirty.png)-->
 
+<div align="center">
+  
 # Security Home Labs
+
+</div>
 
 ## Lab Overview
 
@@ -63,7 +67,7 @@ Through this lab, participants can acquire or enhance the following skills:
 
 ## Installation Guide
 
-Find our installation guide [here](#). <!-- Update with actual link -->
+Find our installation guide [here](docs/Home_Lab_Setup_and_Practices_Guide.md).
 
 ## File Permissions Reference
 
