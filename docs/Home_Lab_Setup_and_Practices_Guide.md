@@ -31,6 +31,33 @@
 - **NIST Cybersecurity Framework**: A guide to the NIST framework principles and practices for improving cybersecurity.
 - **OWASP Top 10**: Overview of the top 10 web application security risks and how to mitigate them.
 
+## File Permissions Reference
+
+In Linux, file permissions control the level of access granted to users and groups for files and directories. Understanding file permissions is crucial for maintaining system security and proper functionality. Here is a quick reference guide to Linux file permissions:
+
+| **NUMBER** | **PERMISSION TYPE** | **SYMBOL** |
+|------------|---------------------|------------|
+| 0          | No permission       | `---`      |
+| 1          | Execute             | `--x`      |
+| 2          | Write               | `-w-`      |
+| 3          | Write and Execute   | `-wx`      |
+| 4          | Read                | `r--`      |
+| 5          | Read and Execute    | `r-x`      |
+| 6          | Read and Write      | `rw-`      |
+| 7          | Read, Execute, and Write | `rwx` |
+
+### Understanding Permissions
+- **Read (r)**: The read permission allows a user to read the contents of a file or list the contents of a directory.
+- **Write (w)**: The write permission allows a user to modify the contents of a file or add/remove files within a directory.
+- **Execute (x)**: The execute permission allows a user to run a file as a program or script. For directories, it allows the user to access the directory's contents.
+
+### Modifying Permissions
+To change file or directory permissions, you can use the `chmod` command. Here's a basic example:
+
+```bash
+chmod 755 filename
+
+
 ### Additional Resources
 
 - **Cheat Sheets**: Quick reference guides for tools like Nmap and Metasploit.
