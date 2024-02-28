@@ -1,43 +1,89 @@
+![Security Home Labs](images/cyberthirty.png)
 
-<div align="center">
+# Security Home Labs
 
-<img src="images/cyberthirty.png" height=80px width=500px>
+## Lab Overview
 
-## DOCUMENTATION
+This project is aimed at guiding users through the setup and management of security-focused home labs. Below is the initial lab configuration:
 
-### Building a Cybersecurity Playground
+| Lab     | Subnet       | Target Start | Target End |
+|---------|--------------|--------------|------------|
+| cyber30 | 10.0.9.0/24  | 10.0.9.1     | 10.0.9.254 |
 
->This is my documentation on how I learn and practise in my every daylife.I love Coding, Hacking, Learning and attending online courses to boot up my skills.
-I have a strong interest in ethical hacking, penetration testing, cyberspace, and coding. I am currently participating in TryHackMe, Pentesterlab, Youtube, Coursera, Portswi and Juniper to develop and learn new skills to stay updated on cyberspace.
+**Lab Details:**
 
-</div>
+- **Number of Usable Hosts:** 254
+- **Broadcast Address:** 10.0.9.255
+- **Network Address:** 10.0.9.0
+- **Subnet Mask:** 255.255.255.0
 
->I also possess:
->  - Experience in scripting languages including Python and Bash
- > -  Excellent task management. Ability to handle multiple projects simultaneously
-  >- Experience with security toolkits such as Windows Server  Splunk, Kali Linux, Metasploit, Nmap, Nessus Essential, Wireshark, Github, Tor Browser, and Burp Suite Community.
+## :warning: Warnings
 
+The labs should be conducted in a controlled or simulated environment only. Avoid storing sensitive information on the practice machines (Kali Linux or Windows).
 
-<br>
+## Skills
 
+Through this lab, participants can acquire or enhance the following skills:
 
-<div align="center">
+- **Operating System Knowledge:** 
+  - Linux: Kali Linux, Ubuntu, ParrotSec
+  - Windows: Windows 7/8/10, Windows Server 2019
+- **Security Tools:** 
+  - Metasploit, Splunk, Nmap, Nessus Essential, Wireshark, Burp Suite Community
+- **Programming Tools:** 
+  - Git and GitHub, GitLab, Code editors (Visual Studio Code, Atom, Sublime Text, Jupyter Notebook), Android: Pydroid, Termux
+- **Programming & Scripting Languages:** 
+  - Python, Bash, PowerShell, Java, C/C++
+- **Frameworks:** 
+  - MITRE ATT&CK Framework, NIST Cybersecurity Framework, OWASP Top 10, CIS Controls, ISO/IEC 27001
 
-<a href="https://github.com/cyberthirty/Hello-World" target="_blank">
-      <img alt="LUCKY NGABUH RESUME" src="https://img.shields.io/badge/>>_DOWNLOAD_MY_RESUME_<<-00abbd?style=for-the-badge" height="48" />
+## Resources
 
+- **Linux**:
+  - [Kali Linux](https://www.kali.org)
+- **Windows**:
+  - [Windows 10 Enterprise Evaluation](https://www.microsoft.com)
+  - [Windows Server 2019 Standard Evaluation](https://www.microsoft.com)
+- **Vulnerable Machines**:
+  - [Metasploitable](https://www.vulnhub.com/)
+  - [Web for Pentester I & II](https://www.vulnhub.com/)
+  - [Sumo & Badstore](https://www.vulnhub.com/) 
+  - [DVL Blackhat](https://www.vulnhub.com/) 
+  - [Kioptrix](https://www.vulnhub.com/?q=kioptrix) 
+- **Exploit Database**:
+  - [Exploit Database](https://www.exploit-db.com)
+- **Shodan**:
+  - [Shodan](https://www.shodan.io)
 
-### SKILLS
- **[Python 89%]()** | **[Bash 90%]()** | **[Office 85%]()** | **[Visual Basics 60%]()** | **[Powershell 64%]()** | **[C++ & C 50%]()** | **[HTML & CSS 95%]()** | **[Ruby 50%]()** | **[Rust 50%]()** | **[Golan 72%]()** | **[Java 45%]()**
+## Projects
 
-### PROJECT
+- [How to Build and Configure Kali Linux in VirtualBox](https://www.kali.org)
+- [How to Build and Configure a Vulnerable Machine](#) <!-- Update with actual link -->
+- [Learn Python Guide for Absolute Beginners](https://cyberthirtysec.blogspot.com/2024/02/learn-python-guide-for-absolute.html)
 
-**<a href="https://github.com/cyberthirty/Password-Stealer">Password Stealer</a> | <a href="https://github.com/cyberthirty/SSL-Certificate-Checker">SSL Certificate Checker</a> | <a href="https://cytherthirty.blogspot.com">Cyberthirty Blog</a> | <a href="http://github.com/cyberthirty/Hello-World">Hello World </a> | <a href="http://cyberthirty.github.io/">Portfolio</a>**
+## Installation Guide
 
-### OVERVIEW
+Find our installation guide [here](#). <!-- Update with actual link -->
 
-This documentation have platforms such as Hack The Box, TryHackMe, and homelab such as Metasploitable 2, DamnVulnerable Linux, Badstore, Web for Pentester I-II, and Sumo.
+## File Permissions Reference
 
+| **NUMBER** | **PERMISSION TYPE** | **SYMBOL** |
+|------------|---------------------|------------|
+| 0          | No permission       | `---`      |
+| 1          | Execute             | `--x`      |
+| 2          | Write               | `-w-`      |
+| 3          | Write and Execute   | `-wx`      |
+| 4          | Read                | `r--`      |
+| 5          | Read and Execute    | `r-x`      |
+| 6          | Read and Write      | `rw-`      |
+| 7          | Read, Execute, and Write | `rwx` |
+
+## Topics
+
+### Overview
+
+This documentation covers platforms such as Hack The Box, TryHackMe, and homelab setups including Metasploitable 2, Damn Vulnerable Linux, Badstore, Web for Pentester I & II, and Sumo.
 
 ### Disclaimer
-This documentation is intended for educational purposes only. Ensure that you have legal authorization before attempting any penetration testing or vulnerability assessment activities.
+
+This documentation is intended for educational and training purposes only. Always ensure you have explicit permission before engaging in any penetration testing or vulnerability assessment activities. Unauthorized testing on networks, servers, and applications may violate laws and regulations.
